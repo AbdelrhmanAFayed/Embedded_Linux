@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define LED_PATH "/sys/class/leds/input11::capslock/brightness"
+#define LED_PATH "/sys/class/leds/input8::capslock/brightness"
 
 int main(int argc, char *argv[]) {
     if (argc != 2) {
